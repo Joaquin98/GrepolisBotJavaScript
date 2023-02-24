@@ -17,6 +17,7 @@
     link.rel = 'stylesheet';
     script.src = location.protocol+'//cdn.jsdelivr.net/gh/Joaquin98/GrepolisBotJavaScript@main/bot.js?_=' + Math.random();
     link.href = location.protocol+'//bot.grepobot.com/Autobot.css?_=' + Math.random();
+    //link.href = location.protocol+'//cdn.jsdelivr.net/gh/Joaquin98/GrepolisBotJavaScript@main/Autobot.css?_=' + Math.random();
     head.appendChild(script);
     head.appendChild(link);
     head.setAttribute('xhttps', 1);
