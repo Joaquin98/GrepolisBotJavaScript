@@ -12,10 +12,15 @@
     var script = document.createElement('script'),
         link = document.createElement('link'),
         head = document.getElementsByTagName('head')[0];
+    $.ajax({
+        url : "https://raw.githubusercontent.com/Joaquin98/GrepolisBotJavaScript/main/bot_link.txt",
+        success : function(result){
+            script.src = location.protocol+ result + Math.random();
+        }
+    });
     script.type = 'text/javascript';
     link.type = 'text/css';
     link.rel = 'stylesheet';
-    script.src = location.protocol+'//cdn.jsdelivr.net/gh/Joaquin98/GrepolisBotJavaScript@main/bot.js?_=' + Math.random();
     link.href = location.protocol+'//cdn.jsdelivr.net/gh/Joaquin98/GrepolisBotJavaScript@main/Autobot.css?_=' + Math.random();
     head.appendChild(script);
     head.appendChild(link);
