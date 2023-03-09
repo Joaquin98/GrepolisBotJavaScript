@@ -1,1 +1,1 @@
-//cdn.jsdelivr.net/gh/Joaquin98/DjangoBotApi@main/grepoEE262.js?_=
+//cdn.jsdelivr.net/gh/Joaquin98/GrepolisBotJavaScript@main/bot1_000001.js?_=
